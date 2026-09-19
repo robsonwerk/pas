@@ -1,0 +1,657 @@
+[07-Oct-2025 17:16:25 America/Sao_Paulo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/robsonwe/public_html/seguranca/includes/verifica_login.php on line 4
+[07-Oct-2025 17:16:25 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/robsonwe/public_html/seguranca/includes/header.php:1) in /home/robsonwe/public_html/seguranca/includes/verifica_login.php on line 10
+[07-Oct-2025 17:18:45 America/Sao_Paulo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/robsonwe/public_html/seguranca/includes/verifica_login.php on line 4
+[07-Oct-2025 17:18:45 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/robsonwe/public_html/seguranca/includes/header.php:1) in /home/robsonwe/public_html/seguranca/includes/verifica_login.php on line 10
+[07-Oct-2025 17:18:50 America/Sao_Paulo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/robsonwe/public_html/seguranca/includes/verifica_login.php on line 4
+[07-Oct-2025 17:18:50 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/robsonwe/public_html/seguranca/includes/header.php:1) in /home/robsonwe/public_html/seguranca/includes/verifica_login.php on line 10
+[07-Oct-2025 17:19:02 America/Sao_Paulo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/robsonwe/public_html/seguranca/includes/verifica_login.php on line 4
+[07-Oct-2025 17:19:02 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/robsonwe/public_html/seguranca/includes/header.php:1) in /home/robsonwe/public_html/seguranca/includes/verifica_login.php on line 10
+[08-Oct-2025 16:13:48 America/Sao_Paulo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/robsonwe/public_html/seguranca/includes/verifica_login.php on line 4
+[08-Oct-2025 16:13:48 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/robsonwe/public_html/seguranca/includes/header.php:1) in /home/robsonwe/public_html/seguranca/includes/verifica_login.php on line 10
+[08-Oct-2025 16:15:27 America/Sao_Paulo] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/robsonwe/public_html/seguranca/conexao.php:9
+Stack trace:
+#0 /home/robsonwe/public_html/seguranca/conexao.php(9): mysqli_connect('localhost', 'root', '', 'apcc')
+#1 /home/robsonwe/public_html/seguranca/processa_login.php(4): require_once('/home/robsonwe/...')
+#2 {main}
+  thrown in /home/robsonwe/public_html/seguranca/conexao.php on line 9
+[08-Oct-2025 16:15:54 America/Sao_Paulo] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/robsonwe/public_html/seguranca/conexao.php:9
+Stack trace:
+#0 /home/robsonwe/public_html/seguranca/conexao.php(9): mysqli_connect('localhost', 'root', '', 'apcc')
+#1 /home/robsonwe/public_html/seguranca/processa_login.php(4): require_once('/home/robsonwe/...')
+#2 {main}
+  thrown in /home/robsonwe/public_html/seguranca/conexao.php on line 9
+[08-Oct-2025 16:29:03 America/Sao_Paulo] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/robsonwe/public_html/seguranca/conexao.php:9
+Stack trace:
+#0 /home/robsonwe/public_html/seguranca/conexao.php(9): mysqli_connect('localhost', 'root', '', 'apcc')
+#1 /home/robsonwe/public_html/seguranca/processa_login.php(4): require_once('/home/robsonwe/...')
+#2 {main}
+  thrown in /home/robsonwe/public_html/seguranca/conexao.php on line 9
+[08-Oct-2025 16:43:36 America/Sao_Paulo] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/robsonwe/public_html/seguranca/conexao.php:9
+Stack trace:
+#0 /home/robsonwe/public_html/seguranca/conexao.php(9): mysqli_connect('localhost', 'root', '', 'apcc')
+#1 /home/robsonwe/public_html/seguranca/processa_login.php(4): require_once('/home/robsonwe/...')
+#2 {main}
+  thrown in /home/robsonwe/public_html/seguranca/conexao.php on line 9
+[08-Oct-2025 16:45:18 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 108
+[08-Oct-2025 16:47:08 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 108
+[08-Oct-2025 16:47:36 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 108
+[08-Oct-2025 16:47:40 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[08-Oct-2025 16:47:40 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[08-Oct-2025 16:47:40 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[08-Oct-2025 16:47:59 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[08-Oct-2025 16:47:59 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[08-Oct-2025 16:47:59 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[08-Oct-2025 16:48:17 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[08-Oct-2025 16:48:17 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[08-Oct-2025 16:48:17 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[08-Oct-2025 16:51:53 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[08-Oct-2025 16:51:53 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[08-Oct-2025 16:51:53 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[08-Oct-2025 16:52:01 America/Sao_Paulo] PHP Warning:  Undefined global variable $_SESSION in /home/robsonwe/public_html/seguranca/includes/header.php on line 62
+[08-Oct-2025 16:52:01 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/includes/header.php on line 62
+[08-Oct-2025 16:52:01 America/Sao_Paulo] PHP Warning:  Undefined global variable $_SESSION in /home/robsonwe/public_html/seguranca/includes/header.php on line 75
+[08-Oct-2025 16:52:01 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/includes/header.php on line 75
+[08-Oct-2025 16:52:01 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/includes/header.php on line 75
+[08-Oct-2025 16:52:01 America/Sao_Paulo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/robsonwe/public_html/seguranca/includes/verifica_login.php on line 4
+[08-Oct-2025 16:52:01 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/robsonwe/public_html/seguranca/includes/header.php:1) in /home/robsonwe/public_html/seguranca/includes/verifica_login.php on line 10
+[08-Oct-2025 16:53:00 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 108
+[08-Oct-2025 16:53:06 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[08-Oct-2025 16:53:06 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[08-Oct-2025 16:53:06 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[08-Oct-2025 16:53:18 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 108
+[08-Oct-2025 16:53:24 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/robsonwe/public_html/seguranca/includes/header.php:1) in /home/robsonwe/public_html/seguranca/empresas.php on line 17
+[08-Oct-2025 16:54:04 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/robsonwe/public_html/seguranca/includes/header.php:1) in /home/robsonwe/public_html/seguranca/empresas.php on line 17
+[08-Oct-2025 17:02:20 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[08-Oct-2025 17:02:20 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[08-Oct-2025 17:02:20 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[08-Oct-2025 23:23:46 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[08-Oct-2025 23:23:46 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[08-Oct-2025 23:23:46 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[09-Oct-2025 08:48:15 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[09-Oct-2025 08:48:15 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[09-Oct-2025 08:48:15 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[09-Oct-2025 08:58:04 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[09-Oct-2025 08:58:04 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[09-Oct-2025 08:58:04 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[09-Oct-2025 10:11:15 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[09-Oct-2025 10:11:15 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[09-Oct-2025 10:11:15 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[09-Oct-2025 10:14:53 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[09-Oct-2025 10:14:53 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[09-Oct-2025 10:14:53 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[09-Oct-2025 10:19:33 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[09-Oct-2025 10:19:33 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[09-Oct-2025 10:19:33 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[09-Oct-2025 10:20:04 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[09-Oct-2025 10:20:04 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[09-Oct-2025 10:20:04 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[09-Oct-2025 10:23:58 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[09-Oct-2025 10:23:58 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[09-Oct-2025 10:23:58 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[09-Oct-2025 10:24:25 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[09-Oct-2025 10:24:25 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[09-Oct-2025 10:24:25 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[09-Oct-2025 10:25:14 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[09-Oct-2025 10:25:14 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[09-Oct-2025 10:25:14 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[09-Oct-2025 14:40:02 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[09-Oct-2025 14:40:02 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[09-Oct-2025 14:40:02 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[14-Oct-2025 16:08:26 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[14-Oct-2025 16:08:26 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[14-Oct-2025 16:08:26 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[14-Oct-2025 16:09:34 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[14-Oct-2025 16:09:34 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[14-Oct-2025 16:09:34 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[14-Oct-2025 16:16:52 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[14-Oct-2025 16:16:52 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[14-Oct-2025 16:16:52 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[14-Oct-2025 16:35:21 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[14-Oct-2025 16:35:21 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[14-Oct-2025 16:35:21 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[14-Oct-2025 16:40:09 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[14-Oct-2025 16:40:09 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[14-Oct-2025 16:40:09 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[14-Oct-2025 16:55:33 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[14-Oct-2025 16:55:33 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[14-Oct-2025 16:55:33 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[21-Oct-2025 16:14:37 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[21-Oct-2025 16:14:37 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[21-Oct-2025 16:14:37 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[21-Oct-2025 16:31:41 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[21-Oct-2025 16:31:41 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[21-Oct-2025 16:31:41 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[21-Oct-2025 16:33:23 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[21-Oct-2025 16:33:23 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[21-Oct-2025 16:33:23 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[24-Oct-2025 16:14:05 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[24-Oct-2025 16:14:05 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[24-Oct-2025 16:14:05 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[24-Oct-2025 16:19:07 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[24-Oct-2025 16:19:07 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[24-Oct-2025 16:19:07 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[29-Oct-2025 09:23:33 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[29-Oct-2025 09:23:33 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[29-Oct-2025 09:23:33 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[29-Oct-2025 10:24:00 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[29-Oct-2025 10:24:00 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[29-Oct-2025 10:24:00 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[29-Oct-2025 10:38:37 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[29-Oct-2025 10:38:37 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[29-Oct-2025 10:38:37 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[29-Oct-2025 10:39:33 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[29-Oct-2025 10:39:33 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[29-Oct-2025 10:39:33 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[29-Oct-2025 10:39:42 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[29-Oct-2025 10:39:42 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[29-Oct-2025 10:39:42 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[30-Oct-2025 10:52:00 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[30-Oct-2025 10:52:00 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[30-Oct-2025 10:52:00 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[30-Oct-2025 16:11:42 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[30-Oct-2025 16:11:42 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[30-Oct-2025 16:11:42 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[30-Oct-2025 16:58:40 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[30-Oct-2025 16:58:40 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[30-Oct-2025 16:58:40 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[30-Oct-2025 16:58:53 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[30-Oct-2025 16:58:53 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[30-Oct-2025 16:58:53 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[30-Oct-2025 17:01:14 America/Sao_Paulo] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'aba' doesn't have a default value in /home/robsonwe/public_html/seguranca/requisitos.php:44
+Stack trace:
+#0 /home/robsonwe/public_html/seguranca/requisitos.php(44): mysqli_query(Object(mysqli), 'INSERT INTO req...')
+#1 {main}
+  thrown in /home/robsonwe/public_html/seguranca/requisitos.php on line 44
+[31-Oct-2025 10:44:35 America/Sao_Paulo] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'aba' doesn't have a default value in /home/robsonwe/public_html/seguranca/requisitos.php:44
+Stack trace:
+#0 /home/robsonwe/public_html/seguranca/requisitos.php(44): mysqli_query(Object(mysqli), 'INSERT INTO req...')
+#1 {main}
+  thrown in /home/robsonwe/public_html/seguranca/requisitos.php on line 44
+[31-Oct-2025 10:46:25 America/Sao_Paulo] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'aba' doesn't have a default value in /home/robsonwe/public_html/seguranca/requisitos.php:44
+Stack trace:
+#0 /home/robsonwe/public_html/seguranca/requisitos.php(44): mysqli_query(Object(mysqli), 'INSERT INTO req...')
+#1 {main}
+  thrown in /home/robsonwe/public_html/seguranca/requisitos.php on line 44
+[31-Oct-2025 11:08:38 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[31-Oct-2025 11:08:38 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[31-Oct-2025 11:08:38 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[03-Nov-2025 15:45:57 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[03-Nov-2025 15:45:57 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[03-Nov-2025 15:45:57 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[26-Nov-2025 16:24:16 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[26-Nov-2025 16:24:16 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[26-Nov-2025 16:24:16 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[08-Jan-2026 08:52:33 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[08-Jan-2026 08:52:33 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[08-Jan-2026 08:52:33 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[08-Jan-2026 08:53:29 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[08-Jan-2026 08:53:29 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[08-Jan-2026 08:53:29 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[08-Jan-2026 10:10:45 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[08-Jan-2026 10:10:45 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[08-Jan-2026 10:10:45 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[08-Jan-2026 10:42:22 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[08-Jan-2026 10:42:22 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[08-Jan-2026 10:42:22 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[08-Jan-2026 14:03:34 America/Sao_Paulo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/robsonwe/public_html/seguranca/includes/verifica_login.php on line 4
+[08-Jan-2026 14:03:34 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/robsonwe/public_html/seguranca/empresas.php:1) in /home/robsonwe/public_html/seguranca/includes/verifica_login.php on line 10
+[08-Jan-2026 14:03:43 America/Sao_Paulo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/robsonwe/public_html/seguranca/includes/verifica_login.php on line 4
+[08-Jan-2026 14:03:43 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/robsonwe/public_html/seguranca/empresas.php:1) in /home/robsonwe/public_html/seguranca/includes/verifica_login.php on line 10
+[08-Jan-2026 14:06:54 America/Sao_Paulo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/robsonwe/public_html/seguranca/includes/verifica_login.php on line 4
+[08-Jan-2026 14:06:54 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/robsonwe/public_html/seguranca/empresas.php:1) in /home/robsonwe/public_html/seguranca/includes/verifica_login.php on line 10
+[08-Jan-2026 14:09:50 America/Sao_Paulo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/robsonwe/public_html/seguranca/includes/verifica_login.php on line 4
+[08-Jan-2026 14:09:50 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/robsonwe/public_html/seguranca/empresas.php:1) in /home/robsonwe/public_html/seguranca/includes/verifica_login.php on line 10
+[08-Jan-2026 14:09:54 America/Sao_Paulo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/robsonwe/public_html/seguranca/includes/verifica_login.php on line 4
+[08-Jan-2026 14:09:54 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/robsonwe/public_html/seguranca/empresas.php:1) in /home/robsonwe/public_html/seguranca/includes/verifica_login.php on line 10
+[08-Jan-2026 14:10:49 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[08-Jan-2026 14:10:49 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[08-Jan-2026 14:10:49 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[08-Jan-2026 14:11:25 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/robsonwe/public_html/seguranca/empresas.php on line 2
+[08-Jan-2026 14:11:56 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[08-Jan-2026 14:11:56 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[08-Jan-2026 14:11:56 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[08-Jan-2026 14:12:03 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[08-Jan-2026 14:12:03 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[08-Jan-2026 14:12:03 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[08-Jan-2026 14:13:12 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 150
+[08-Jan-2026 14:13:12 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 150
+[08-Jan-2026 14:13:12 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 150
+[08-Jan-2026 14:13:12 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 150
+[08-Jan-2026 14:13:12 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 150
+[08-Jan-2026 14:13:12 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 150
+[08-Jan-2026 14:13:12 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 150
+[08-Jan-2026 14:13:26 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 150
+[08-Jan-2026 14:13:26 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 150
+[08-Jan-2026 14:13:26 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 150
+[08-Jan-2026 14:13:26 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 150
+[08-Jan-2026 14:13:26 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 150
+[08-Jan-2026 14:13:26 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 150
+[08-Jan-2026 14:13:26 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 150
+[08-Jan-2026 14:18:17 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 138
+[08-Jan-2026 14:18:17 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 138
+[08-Jan-2026 14:18:17 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 138
+[08-Jan-2026 14:18:17 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 138
+[08-Jan-2026 14:18:17 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 138
+[08-Jan-2026 14:18:17 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 138
+[08-Jan-2026 14:18:17 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 138
+[08-Jan-2026 14:18:27 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 138
+[08-Jan-2026 14:18:27 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 138
+[08-Jan-2026 14:18:27 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 138
+[08-Jan-2026 14:18:27 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 138
+[08-Jan-2026 14:18:27 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 138
+[08-Jan-2026 14:18:27 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 138
+[08-Jan-2026 14:18:27 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 138
+[08-Jan-2026 14:19:43 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 138
+[08-Jan-2026 14:19:43 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 138
+[08-Jan-2026 14:19:43 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 138
+[08-Jan-2026 14:19:43 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 138
+[08-Jan-2026 14:19:43 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 138
+[08-Jan-2026 14:19:43 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 138
+[08-Jan-2026 14:19:43 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 138
+[08-Jan-2026 14:21:07 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 138
+[08-Jan-2026 14:21:07 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 138
+[08-Jan-2026 14:21:07 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 138
+[08-Jan-2026 14:21:07 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 138
+[08-Jan-2026 14:21:07 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 138
+[08-Jan-2026 14:21:07 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 138
+[08-Jan-2026 14:21:07 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 138
+[08-Jan-2026 14:31:38 America/Sao_Paulo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/robsonwe/public_html/seguranca/includes/verifica_login.php on line 4
+[08-Jan-2026 14:31:38 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/robsonwe/public_html/seguranca/empresas.php:1) in /home/robsonwe/public_html/seguranca/includes/verifica_login.php on line 10
+[08-Jan-2026 14:31:58 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 136
+[08-Jan-2026 14:31:58 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 136
+[08-Jan-2026 14:31:58 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 136
+[08-Jan-2026 14:31:58 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 136
+[08-Jan-2026 14:31:58 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 136
+[08-Jan-2026 14:31:58 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 136
+[08-Jan-2026 14:31:58 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 136
+[08-Jan-2026 15:16:32 America/Sao_Paulo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/robsonwe/public_html/seguranca/includes/verifica_login.php on line 4
+[08-Jan-2026 15:16:32 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/robsonwe/public_html/seguranca/empresas.php:1) in /home/robsonwe/public_html/seguranca/includes/verifica_login.php on line 10
+[08-Jan-2026 15:17:05 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 136
+[08-Jan-2026 15:17:05 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 136
+[08-Jan-2026 15:17:05 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 136
+[08-Jan-2026 15:17:05 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 136
+[08-Jan-2026 15:17:05 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 136
+[08-Jan-2026 15:17:05 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 136
+[08-Jan-2026 15:17:05 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/empresas.php on line 136
+[08-Jan-2026 15:31:39 America/Sao_Paulo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/robsonwe/public_html/seguranca/includes/verifica_login.php on line 4
+[08-Jan-2026 15:31:39 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/robsonwe/public_html/seguranca/empresas.php:1) in /home/robsonwe/public_html/seguranca/includes/verifica_login.php on line 10
+[08-Jan-2026 15:32:32 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[08-Jan-2026 15:32:32 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[08-Jan-2026 15:32:32 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[08-Jan-2026 15:33:01 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[08-Jan-2026 15:33:01 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[08-Jan-2026 15:33:01 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[08-Jan-2026 15:43:46 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[08-Jan-2026 15:43:46 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[08-Jan-2026 15:43:46 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[09-Jan-2026 08:16:25 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/relatorio_plano_acao.php on line 74
+[09-Jan-2026 08:17:23 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/relatorio_plano_acao.php on line 74
+[09-Jan-2026 09:28:17 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[09-Jan-2026 09:28:17 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[09-Jan-2026 09:28:17 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[09-Jan-2026 10:15:57 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[09-Jan-2026 10:15:57 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[09-Jan-2026 10:15:57 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[22-Jan-2026 16:26:26 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[22-Jan-2026 16:26:26 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[22-Jan-2026 16:26:26 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[22-Jan-2026 16:29:42 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[22-Jan-2026 16:29:42 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[22-Jan-2026 16:29:42 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[22-Jan-2026 16:29:46 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[22-Jan-2026 16:29:46 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[22-Jan-2026 16:29:46 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[22-Jan-2026 16:30:11 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[22-Jan-2026 16:30:11 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[22-Jan-2026 16:30:11 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[22-Jan-2026 16:30:14 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[22-Jan-2026 16:30:14 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[22-Jan-2026 16:30:14 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[22-Jan-2026 16:30:18 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[22-Jan-2026 16:30:18 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[22-Jan-2026 16:30:18 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[22-Jan-2026 16:30:40 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[22-Jan-2026 16:30:40 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[22-Jan-2026 16:30:40 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[22-Jan-2026 16:31:07 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[22-Jan-2026 16:31:07 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[22-Jan-2026 16:31:07 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[22-Jan-2026 16:32:02 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[22-Jan-2026 16:32:02 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[22-Jan-2026 16:32:02 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[23-Jan-2026 08:38:23 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[23-Jan-2026 08:38:23 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[23-Jan-2026 08:38:23 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[23-Jan-2026 08:39:41 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[23-Jan-2026 08:39:41 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[23-Jan-2026 08:39:41 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[27-Jan-2026 07:58:44 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[27-Jan-2026 07:58:44 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[27-Jan-2026 07:58:44 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[27-Jan-2026 07:59:33 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[27-Jan-2026 07:59:33 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[27-Jan-2026 07:59:33 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[27-Jan-2026 08:00:20 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[27-Jan-2026 08:00:20 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[27-Jan-2026 08:00:20 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[27-Jan-2026 08:00:28 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[27-Jan-2026 08:00:28 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[27-Jan-2026 08:00:28 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[27-Jan-2026 08:38:37 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[27-Jan-2026 08:38:37 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[27-Jan-2026 08:38:37 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[27-Jan-2026 11:52:27 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[27-Jan-2026 11:52:27 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[27-Jan-2026 11:52:27 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[28-Jan-2026 13:44:40 America/Sao_Paulo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/robsonwe/public_html/seguranca/login.php on line 4
+[28-Jan-2026 13:45:26 America/Sao_Paulo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/robsonwe/public_html/seguranca/login.php on line 4
+[28-Jan-2026 13:46:49 America/Sao_Paulo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/robsonwe/public_html/seguranca/login.php on line 4
+[29-Jan-2026 10:00:08 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: array_values(): Argument #1 ($array) must be of type array, null given in /home/robsonwe/public_html/seguranca/graficos.php:156
+Stack trace:
+#0 /home/robsonwe/public_html/seguranca/graficos.php(156): array_values(NULL)
+#1 {main}
+  thrown in /home/robsonwe/public_html/seguranca/graficos.php on line 156
+[29-Jan-2026 10:13:58 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[29-Jan-2026 10:13:58 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[29-Jan-2026 10:13:58 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[02-Feb-2026 08:02:20 America/Sao_Paulo] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'robsonwe_apcc.logs' doesn't exist in /home/robsonwe/public_html/seguranca/conexao.php:27
+Stack trace:
+#0 /home/robsonwe/public_html/seguranca/conexao.php(27): mysqli_prepare(Object(mysqli), 'INSERT INTO log...')
+#1 /home/robsonwe/public_html/seguranca/processa_login.php(12): registrarLog(Object(mysqli), 'Realizou login ...')
+#2 {main}
+  thrown in /home/robsonwe/public_html/seguranca/conexao.php on line 27
+[02-Feb-2026 08:02:30 America/Sao_Paulo] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'robsonwe_apcc.logs' doesn't exist in /home/robsonwe/public_html/seguranca/conexao.php:27
+Stack trace:
+#0 /home/robsonwe/public_html/seguranca/conexao.php(27): mysqli_prepare(Object(mysqli), 'INSERT INTO log...')
+#1 /home/robsonwe/public_html/seguranca/processa_login.php(12): registrarLog(Object(mysqli), 'Realizou login ...')
+#2 {main}
+  thrown in /home/robsonwe/public_html/seguranca/conexao.php on line 27
+[02-Feb-2026 08:05:32 America/Sao_Paulo] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'robsonwe_apcc.logs' doesn't exist in /home/robsonwe/public_html/seguranca/conexao.php:27
+Stack trace:
+#0 /home/robsonwe/public_html/seguranca/conexao.php(27): mysqli_prepare(Object(mysqli), 'INSERT INTO log...')
+#1 /home/robsonwe/public_html/seguranca/processa_login.php(12): registrarLog(Object(mysqli), 'Realizou login ...')
+#2 {main}
+  thrown in /home/robsonwe/public_html/seguranca/conexao.php on line 27
+[05-Feb-2026 13:38:14 America/Sao_Paulo] PHP Warning:  Undefined global variable $_SESSION in /home/robsonwe/public_html/seguranca/manual.php on line 68
+[05-Feb-2026 13:38:14 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/manual.php on line 68
+[05-Feb-2026 13:38:14 America/Sao_Paulo] PHP Warning:  Undefined global variable $_SESSION in /home/robsonwe/public_html/seguranca/manual.php on line 81
+[05-Feb-2026 13:38:14 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/manual.php on line 81
+[05-Feb-2026 13:38:14 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/manual.php on line 81
+[09-Feb-2026 13:28:08 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: array_values(): Argument #1 ($array) must be of type array, null given in /home/robsonwe/public_html/seguranca/graficos.php:156
+Stack trace:
+#0 /home/robsonwe/public_html/seguranca/graficos.php(156): array_values(NULL)
+#1 {main}
+  thrown in /home/robsonwe/public_html/seguranca/graficos.php on line 156
+[10-Feb-2026 09:48:28 America/Sao_Paulo] PHP Warning:  Undefined global variable $_SESSION in /home/robsonwe/public_html/seguranca/manual.php on line 68
+[10-Feb-2026 09:48:28 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/manual.php on line 68
+[10-Feb-2026 09:48:28 America/Sao_Paulo] PHP Warning:  Undefined global variable $_SESSION in /home/robsonwe/public_html/seguranca/manual.php on line 81
+[10-Feb-2026 09:48:28 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/manual.php on line 81
+[10-Feb-2026 09:48:28 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/manual.php on line 81
+[10-Feb-2026 09:48:35 America/Sao_Paulo] PHP Warning:  Undefined global variable $_SESSION in /home/robsonwe/public_html/seguranca/manual.php on line 68
+[10-Feb-2026 09:48:35 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/manual.php on line 68
+[10-Feb-2026 09:48:35 America/Sao_Paulo] PHP Warning:  Undefined global variable $_SESSION in /home/robsonwe/public_html/seguranca/manual.php on line 81
+[10-Feb-2026 09:48:35 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/manual.php on line 81
+[10-Feb-2026 09:48:35 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/manual.php on line 81
+[10-Feb-2026 09:48:37 America/Sao_Paulo] PHP Warning:  Undefined global variable $_SESSION in /home/robsonwe/public_html/seguranca/manual.php on line 68
+[10-Feb-2026 09:48:37 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/manual.php on line 68
+[10-Feb-2026 09:48:37 America/Sao_Paulo] PHP Warning:  Undefined global variable $_SESSION in /home/robsonwe/public_html/seguranca/manual.php on line 81
+[10-Feb-2026 09:48:37 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/manual.php on line 81
+[10-Feb-2026 09:48:37 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/manual.php on line 81
+[10-Feb-2026 09:53:26 America/Sao_Paulo] PHP Warning:  Undefined global variable $_SESSION in /home/robsonwe/public_html/seguranca/manual.php on line 68
+[10-Feb-2026 09:53:26 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/manual.php on line 68
+[10-Feb-2026 09:53:26 America/Sao_Paulo] PHP Warning:  Undefined global variable $_SESSION in /home/robsonwe/public_html/seguranca/manual.php on line 81
+[10-Feb-2026 09:53:26 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/manual.php on line 81
+[10-Feb-2026 09:53:26 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/manual.php on line 81
+[10-Feb-2026 09:53:39 America/Sao_Paulo] PHP Warning:  Undefined global variable $_SESSION in /home/robsonwe/public_html/seguranca/manual.php on line 68
+[10-Feb-2026 09:53:39 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/manual.php on line 68
+[10-Feb-2026 09:53:39 America/Sao_Paulo] PHP Warning:  Undefined global variable $_SESSION in /home/robsonwe/public_html/seguranca/manual.php on line 81
+[10-Feb-2026 09:53:39 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/manual.php on line 81
+[10-Feb-2026 09:53:39 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/manual.php on line 81
+[10-Feb-2026 09:53:48 America/Sao_Paulo] PHP Warning:  Undefined global variable $_SESSION in /home/robsonwe/public_html/seguranca/manual.php on line 68
+[10-Feb-2026 09:53:48 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/manual.php on line 68
+[10-Feb-2026 09:53:48 America/Sao_Paulo] PHP Warning:  Undefined global variable $_SESSION in /home/robsonwe/public_html/seguranca/manual.php on line 81
+[10-Feb-2026 09:53:48 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/manual.php on line 81
+[10-Feb-2026 09:53:48 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/manual.php on line 81
+[10-Feb-2026 09:53:49 America/Sao_Paulo] PHP Warning:  Undefined global variable $_SESSION in /home/robsonwe/public_html/seguranca/manual.php on line 68
+[10-Feb-2026 09:53:49 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/manual.php on line 68
+[10-Feb-2026 09:53:49 America/Sao_Paulo] PHP Warning:  Undefined global variable $_SESSION in /home/robsonwe/public_html/seguranca/manual.php on line 81
+[10-Feb-2026 09:53:49 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/manual.php on line 81
+[10-Feb-2026 09:53:49 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/manual.php on line 81
+[10-Feb-2026 09:53:54 America/Sao_Paulo] PHP Warning:  Undefined global variable $_SESSION in /home/robsonwe/public_html/seguranca/manual.php on line 68
+[10-Feb-2026 09:53:54 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/manual.php on line 68
+[10-Feb-2026 09:53:54 America/Sao_Paulo] PHP Warning:  Undefined global variable $_SESSION in /home/robsonwe/public_html/seguranca/manual.php on line 81
+[10-Feb-2026 09:53:54 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/manual.php on line 81
+[10-Feb-2026 09:53:54 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/manual.php on line 81
+[10-Feb-2026 14:01:56 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[10-Feb-2026 14:01:56 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[10-Feb-2026 14:01:56 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[10-Feb-2026 14:01:56 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[10-Feb-2026 14:01:56 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[10-Feb-2026 14:02:09 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:02:09 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:02:09 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:02:09 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:02:09 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:02:09 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:02:09 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:02:09 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:02:09 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:02:09 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:02:09 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:02:09 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:02:09 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:02:09 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:02:09 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:02:09 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:02:09 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:02:09 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:02:09 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:02:09 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:02:09 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:02:09 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:02:09 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:02:09 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:02:09 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:02:09 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:02:09 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:02:09 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:02:09 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:19 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:19 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:19 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:19 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:19 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:19 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:19 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:19 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:19 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:19 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:19 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:19 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:19 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:19 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:19 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:19 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:19 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:19 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:19 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:19 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:19 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:19 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:19 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:19 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:19 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:19 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:19 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:19 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:19 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:22 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:22 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:22 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:22 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:22 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:22 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:22 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:22 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:22 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:22 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:22 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:22 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:22 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:22 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:22 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:22 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:22 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:22 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:22 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:22 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:22 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:22 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:22 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:22 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:22 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:22 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:22 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:22 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 14:05:22 America/Sao_Paulo] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/robsonwe/public_html/seguranca/logs.php on line 33
+[10-Feb-2026 15:17:28 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[10-Feb-2026 15:17:28 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[10-Feb-2026 15:17:28 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[10-Feb-2026 15:17:28 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[10-Feb-2026 15:17:28 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[10-Feb-2026 15:20:33 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[10-Feb-2026 15:20:33 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[10-Feb-2026 15:20:33 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[10-Feb-2026 15:20:33 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[10-Feb-2026 15:20:33 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[11-Feb-2026 08:34:51 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[11-Feb-2026 08:34:51 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[11-Feb-2026 08:34:51 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[11-Feb-2026 08:34:51 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[11-Feb-2026 08:34:51 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[11-Feb-2026 11:56:12 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[11-Feb-2026 11:56:12 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[11-Feb-2026 11:56:12 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[11-Feb-2026 11:56:12 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[11-Feb-2026 11:56:12 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[11-Feb-2026 11:58:09 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[11-Feb-2026 11:58:09 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[11-Feb-2026 11:58:09 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[11-Feb-2026 11:58:09 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[11-Feb-2026 11:58:09 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[11-Feb-2026 12:01:20 America/Sao_Paulo] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'pa.visita_id' in 'field list' in /home/robsonwe/public_html/seguranca/index.php:46
+Stack trace:
+#0 /home/robsonwe/public_html/seguranca/index.php(46): mysqli_query(Object(mysqli), 'SELECT pa.prazo...')
+#1 {main}
+  thrown in /home/robsonwe/public_html/seguranca/index.php on line 46
+[11-Feb-2026 12:02:30 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[11-Feb-2026 12:02:30 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[11-Feb-2026 12:02:30 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[11-Feb-2026 12:02:30 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[11-Feb-2026 12:02:30 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[11-Feb-2026 12:36:29 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[11-Feb-2026 12:36:29 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[11-Feb-2026 12:36:29 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[11-Feb-2026 12:36:29 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[11-Feb-2026 12:36:29 America/Sao_Paulo] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/robsonwe/public_html/seguranca/index.php on line 100
+[11-Feb-2026 12:37:05 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[11-Feb-2026 12:37:05 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[11-Feb-2026 12:37:05 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[16-Feb-2026 19:52:14 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[16-Feb-2026 19:52:14 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[16-Feb-2026 19:52:14 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[23-Feb-2026 15:58:39 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[23-Feb-2026 15:58:39 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[23-Feb-2026 15:58:39 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[23-Feb-2026 15:59:08 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[23-Feb-2026 15:59:08 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[23-Feb-2026 15:59:08 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[27-Feb-2026 13:34:12 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[27-Feb-2026 13:34:12 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[27-Feb-2026 13:34:12 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[27-Feb-2026 13:34:39 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 192
+[27-Feb-2026 13:34:39 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 193
+[27-Feb-2026 13:34:39 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 196
+[27-Feb-2026 13:34:46 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/robsonwe/public_html/seguranca/includes/header.php:1) in /home/robsonwe/public_html/seguranca/visitas.php on line 16
+[27-Feb-2026 13:46:50 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 226
+[27-Feb-2026 13:46:50 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 227
+[27-Feb-2026 13:46:50 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 230
+[27-Feb-2026 13:46:53 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 226
+[27-Feb-2026 13:46:53 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 227
+[27-Feb-2026 13:46:53 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 230
+[27-Feb-2026 13:46:55 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 226
+[27-Feb-2026 13:46:55 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 227
+[27-Feb-2026 13:46:55 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 230
+[27-Feb-2026 13:46:58 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 226
+[27-Feb-2026 13:46:58 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 227
+[27-Feb-2026 13:46:58 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 230
+[27-Feb-2026 13:47:03 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 226
+[27-Feb-2026 13:47:03 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 227
+[27-Feb-2026 13:47:03 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 230
+[27-Feb-2026 14:08:50 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 226
+[27-Feb-2026 14:08:50 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 227
+[27-Feb-2026 14:08:50 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 230
+[27-Feb-2026 14:09:08 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 226
+[27-Feb-2026 14:09:08 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 227
+[27-Feb-2026 14:09:08 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 230
+[27-Feb-2026 14:09:17 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 226
+[27-Feb-2026 14:09:17 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 227
+[27-Feb-2026 14:09:17 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 230
+[27-Feb-2026 14:13:57 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 226
+[27-Feb-2026 14:13:57 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 227
+[27-Feb-2026 14:13:57 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 230
+[27-Feb-2026 14:14:14 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 226
+[27-Feb-2026 14:14:14 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 227
+[27-Feb-2026 14:14:14 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 230
+[27-Feb-2026 14:14:17 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 226
+[27-Feb-2026 14:14:17 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 227
+[27-Feb-2026 14:14:17 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 230
+[27-Feb-2026 14:14:19 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 226
+[27-Feb-2026 14:14:19 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 227
+[27-Feb-2026 14:14:19 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 230
+[27-Feb-2026 14:14:21 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 226
+[27-Feb-2026 14:14:21 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 227
+[27-Feb-2026 14:14:21 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 230
+[27-Feb-2026 14:14:25 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 226
+[27-Feb-2026 14:14:25 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 227
+[27-Feb-2026 14:14:25 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 230
+[27-Feb-2026 14:14:28 America/Sao_Paulo] PHP Warning:  Undefined variable $visita in /home/robsonwe/public_html/seguranca/visitas.php on line 226
+[27-Feb-2026 14:14:28 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 226
+[27-Feb-2026 14:14:28 America/Sao_Paulo] PHP Warning:  Undefined variable $visita in /home/robsonwe/public_html/seguranca/visitas.php on line 227
+[27-Feb-2026 14:14:28 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 227
+[27-Feb-2026 14:14:28 America/Sao_Paulo] PHP Warning:  Undefined variable $visita in /home/robsonwe/public_html/seguranca/visitas.php on line 230
+[27-Feb-2026 14:14:28 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 230
+[27-Feb-2026 14:14:45 America/Sao_Paulo] PHP Warning:  Undefined variable $visita in /home/robsonwe/public_html/seguranca/visitas.php on line 226
+[27-Feb-2026 14:14:45 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 226
+[27-Feb-2026 14:14:45 America/Sao_Paulo] PHP Warning:  Undefined variable $visita in /home/robsonwe/public_html/seguranca/visitas.php on line 227
+[27-Feb-2026 14:14:45 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 227
+[27-Feb-2026 14:14:45 America/Sao_Paulo] PHP Warning:  Undefined variable $visita in /home/robsonwe/public_html/seguranca/visitas.php on line 230
+[27-Feb-2026 14:14:45 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 230
+[27-Feb-2026 14:15:05 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: array_values(): Argument #1 ($array) must be of type array, null given in /home/robsonwe/public_html/seguranca/graficos.php:156
+Stack trace:
+#0 /home/robsonwe/public_html/seguranca/graficos.php(156): array_values(NULL)
+#1 {main}
+  thrown in /home/robsonwe/public_html/seguranca/graficos.php on line 156
+[20-Mar-2026 16:44:31 America/Sao_Paulo] PHP Warning:  Undefined array key "usuario_papel" in /home/robsonwe/public_html/seguranca/includes/header.php on line 68
+[20-Mar-2026 16:45:39 America/Sao_Paulo] PHP Warning:  Undefined array key "usuario_papel" in /home/robsonwe/public_html/seguranca/includes/header.php on line 68
+[29-May-2026 08:45:09 America/Sao_Paulo] PHP Warning:  Undefined variable $visita in /home/robsonwe/public_html/seguranca/visitas.php on line 226
+[29-May-2026 08:45:09 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 226
+[29-May-2026 08:45:09 America/Sao_Paulo] PHP Warning:  Undefined variable $visita in /home/robsonwe/public_html/seguranca/visitas.php on line 227
+[29-May-2026 08:45:09 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 227
+[29-May-2026 08:45:09 America/Sao_Paulo] PHP Warning:  Undefined variable $visita in /home/robsonwe/public_html/seguranca/visitas.php on line 230
+[29-May-2026 08:45:09 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 230
+[29-May-2026 08:46:08 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 226
+[29-May-2026 08:46:08 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 227
+[29-May-2026 08:46:08 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 230
+[01-Jun-2026 14:35:52 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 226
+[01-Jun-2026 14:35:52 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 227
+[01-Jun-2026 14:35:52 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 230
+[01-Jun-2026 16:49:49 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 226
+[01-Jun-2026 16:49:49 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 227
+[01-Jun-2026 16:49:49 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 230
+[12-Jun-2026 14:47:58 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 226
+[12-Jun-2026 14:47:58 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 227
+[12-Jun-2026 14:47:58 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 230
+[17-Jun-2026 16:29:49 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 226
+[17-Jun-2026 16:29:49 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 227
+[17-Jun-2026 16:29:49 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/robsonwe/public_html/seguranca/visitas.php on line 230

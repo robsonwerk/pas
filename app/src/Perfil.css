@@ -1,0 +1,146 @@
+.perfil-container {
+  min-height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  box-sizing: border-box;
+}
+
+/* Cabeçalho de Navegação */
+.perfil-nav {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1.2rem;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.btn-voltar {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.2rem;
+}
+
+.perfil-nav-title {
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+/* Cartão de Destaque Superior com Degradê */
+.perfil-header-card {
+  background: linear-gradient(135deg, #0b1e3d 0%, #1a365d 50%, #0f2027 100%);
+  padding: 4.5rem 1.5rem 2.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Avatar do Usuário */
+.avatar-circle {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 4px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.2rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.avatar-icon {
+  font-size: 5rem;
+  color: #ffffff;
+}
+
+/* Informações do Usuário */
+.user-name {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 0 0 0.4rem 0;
+  letter-spacing: 0.3px;
+}
+
+.user-id {
+  font-size: 1.05rem;
+  opacity: 0.85;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* Área de Conteúdo / Detalhes */
+.perfil-body {
+  padding: 2rem 1.5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  max-width: 480px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.info-field {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 0.8rem;
+}
+
+.info-label {
+  font-size: 0.8rem;
+  color: #64748b;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.2rem;
+}
+
+.info-value {
+  font-size: 1.05rem;
+  color: #1e293b;
+  font-weight: 500;
+}
+
+/* Botão Flutuante de Edição (FAB) */
+.fab-edit {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  color: #ffffff;
+  border: none;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 16px rgba(37, 99, 235, 0.4);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.fab-edit:active {
+  transform: scale(0.92);
+}

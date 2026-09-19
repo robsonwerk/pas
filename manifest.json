@@ -1,0 +1,22 @@
+{
+  "name": "Sistema Segurança dos Alimentos",
+  "short_name": "SegAlimentos",
+  "description": "Sistema de Gestão de Segurança dos Alimentos e Checklist Offline",
+  "start_url": "/index.php",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0052cc",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+/* Importando uma fonte mais moderna do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Estilos gerais para o corpo da página */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7f6; /* Um cinza bem claro para o fundo */
+}
+
+/* Deixando os cards com uma sombra mais suave */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+/* Estilo para o cabeçalho dos cards */
+.card-header {
+    background-color: #ffffff;
+    font-weight: 600;
+    color: #0d6efd; /* Azul primário do Bootstrap */
+}
+
+/* Efeito de hover nos botões */
+.btn-primary:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+    transition: all 0.2s;
+}
+
+/* Ajustes para telas pequenas (celulares) */
+@media (max-width: 768px) {
+    .container {
+        margin-top: 1rem !important; /* Diminui a margem no topo */
+    }
+    h2 {
+        font-size: 1.5rem; /* Diminui o tamanho do título principal */
+        text-align: center;
+    }
+}
+
+/* Estilo para o logotipo na tela de login */
+.login-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5rem;
+    max-width: 150px; /* Ajuste o tamanho conforme necessário */
+}
+
+/* Este estilo só é aplicado na hora da impressão */
+@media print {
+    /* Esconde elementos que não devem aparecer no papel */
+    .no-print {
+        display: none !important;
+    }
+
+    /* Garante que os cards não tenham sombra na impressão */
+    .card {
+        box-shadow: none !important;
+        border: 1px solid #dee2e6 !important;
+    }
+}
