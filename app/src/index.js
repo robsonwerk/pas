@@ -4,11 +4,18 @@ import Login from './Login';
 import Dashboard from './Dashboard';
 import Perfil from './Perfil';
 import Empresa from './Empresa';
+import Visitas from './Visitas';
+import Checklist from './Checklist';
+import Relatorios from './Relatorios';
+import PlanoAcao from './PlanoAcao';
 import './index.css';
 
 function AppContainer() {
   const [usuario, setUsuario] = useState(null);
   const [paginaAtual, setPaginaAtual] = useState('dashboard');
+  
+  // 1. O useState DEVE ficar no nível superior do componente
+  const [visitaSelecionadaPlano, setVisitaSelecionadaPlano] = useState('');
 
   useEffect(() => {
     const usuarioSalvo = localStorage.getItem('usuario');
@@ -32,6 +39,7 @@ function AppContainer() {
       return <Login onLoginSucesso={(usr) => setUsuario(usr)} />;
     }
 
+    // 2. Switch limpo, sem hooks e sem cases duplicados
     switch (paginaAtual) {
       case 'perfil':
         return <Perfil usuario={usuario} onVoltar={() => setPaginaAtual('dashboard')} />;
@@ -40,16 +48,29 @@ function AppContainer() {
         return <Empresa onVoltar={() => setPaginaAtual('dashboard')} />;
 
       case 'visitas':
-        return <div><h1>Tela Visitas</h1><button onClick={() => setPaginaAtual('dashboard')}>Voltar</button></div>;
+        return <Visitas onVoltar={() => setPaginaAtual('dashboard')} />;
 
       case 'checklist':
-        return <div><h1>Tela Checklist</h1><button onClick={() => setPaginaAtual('dashboard')}>Voltar</button></div>;
-
-      case 'plano_acao':
-        return <div><h1>Tela Plano de Ação</h1><button onClick={() => setPaginaAtual('dashboard')}>Voltar</button></div>;
+        return <Checklist onVoltar={() => setPaginaAtual('dashboard')} />;
 
       case 'relatorios':
-        return <div><h1>Tela Relatórios</h1><button onClick={() => setPaginaAtual('dashboard')}>Voltar</button></div>;
+        return (
+          <Relatorios 
+            onVoltar={() => setPaginaAtual('dashboard')} 
+            onNavegarPlanoAcao={(visitaId) => {
+              setVisitaSelecionadaPlano(visitaId);
+              setPaginaAtual('plano_acao');
+            }}
+          />
+        );
+
+      case 'plano_acao':
+        return (
+          <PlanoAcao 
+            visitaIdInicial={visitaSelecionadaPlano}
+            onVoltar={() => setPaginaAtual('dashboard')} 
+          />
+        );
 
       default:
         return (
